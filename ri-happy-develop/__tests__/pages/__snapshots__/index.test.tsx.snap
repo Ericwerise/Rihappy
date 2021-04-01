@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="max-w-full md:max-w-xl mx-auto max-h-24"
+  >
+    <img
+      class="sticky w-full h-40 xl:h-52 top-0 object-cover"
+      src="/static/header-img.png"
+    />
+    <main
+      class="flex flex-col justify-center bg-gray-50"
+    >
+      <div>
+        <div
+          class="flex flex-col bg-white w-full"
+        >
+          <div
+            class="text-lg font-medium text-gray-700 text-center align-middle pt-4 space-y-1"
+          >
+            <p>
+              Obaaa! :) São só algumas 
+              <br />
+               perguntinhas rápidas.
+              <br />
+            </p>
+            <p>
+              Quando você compra com a gente,
+              <br />
+               pra quem costuma comprar?
+            </p>
+            <p
+              class="text-sm pt-0.5"
+            >
+              (escolha quantas opções quiser)
+            </p>
+          </div>
+          <div
+            class="py-6 px-2"
+          >
+            <div
+              class="grid grid-cols-3 gap-x-2 gap-y-5 bg-white"
+            />
+            <form
+              class="mt-4 flex flex-row-reverse"
+            >
+              <input
+                class="border w-28 rounded-lg text-center h-8"
+                id="who"
+                placeholder="Pra Quem?"
+                value=""
+              />
+            </form>
+            <div
+              class="py-4"
+            >
+              <div
+                class="flex flex-col justify-center items-center my-2"
+              >
+                <button
+                  class="inline-flex items-center justify-center border border-transparent font-medium shadow-sm text-white focus:outline-none focus:ring-2 focus:ring-offset-2 px-4 py-2 text-sm rounded-md bg-green-light hover:bg-green-700 focus:ring-green-500  rounded-3xl w-60 py-2.5"
+                  id="btn-landing"
+                  type="button"
+                >
+                  <span
+                    class="text-xl"
+                  >
+                    próxima pergunta
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</DocumentFragment>
+`;
